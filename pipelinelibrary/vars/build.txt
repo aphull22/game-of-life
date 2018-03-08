@@ -1,0 +1,21 @@
+<h2>build</h2>
+<p>
+test
+</p>
+<pre>
+The <i>build</i> variable allows you to conveniently execute a build towards your source code.
+
+The following paramaters are <b>required</b>:
+
+<b>type</b>
+	Define the type of build (ex. maven,gradle,npm,sh)
+<b>file</b>
+	Define the path to your build file relative to workspace (ex. path/to/pom.xml)
+<b>goals</b>
+	Define your build goals (ex. clean install -DskipITs)
+    
+The following paramaters are <b>optional</b>:
+
+<b>artifactoryPublish</b>
+	artifactoryPublish is enabled by default, this paramater allows you to disable it (ex. disabled)
+</pre>
